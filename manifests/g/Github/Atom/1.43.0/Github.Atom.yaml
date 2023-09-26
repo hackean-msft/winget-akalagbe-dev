@@ -1,0 +1,18 @@
+PackageIdentifier: Github.Atom
+PackageVersion: 1.43.0
+PackageName: Atom
+Publisher: Github
+PackageUrl: https://atom.io/
+License: Copyright (c) 2020 GitHub Inc.
+LicenseUrl: https://help.github.com/en/github/site-policy/github-terms-of-service
+ShortDescription: A hackable text editor for the 21st Century.
+Installers:
+- Architecture: x64
+  InstallerUrl: https://atom.io/download/windows_x64
+  InstallerType: exe
+  InstallerSwitches:
+    Silent: /silent
+  InstallerSha256: 8A240A17642875C0AEB925CAE81D5800FE58452022945423CFA44B3378912D8C
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0

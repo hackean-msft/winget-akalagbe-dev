@@ -1,0 +1,18 @@
+PackageIdentifier: IntegrationTests.ValidationWaiver.Waived.RiskyKeywords
+PackageVersion: 1.0.0
+PackageName: Visual Studio Code
+Publisher: stpkgmanvalwestustest
+PackageUrl: https://code.visualstudio.com
+License: Copyright (c) Microsoft Corporation
+ShortDescription: Test for Risky Keywords. An additional phrase "doodoo" to trigger adult content warning.
+Moniker: vscode
+Commands:
+- code
+Installers:
+- Architecture: x64
+  InstallerUrl: https://stpkgmanvalwestustest.blob.core.windows.net/test-installers/VSCodeUserSetup-x64-1.46.1.exe
+  InstallerType: inno
+  InstallerSha256: e29f73f5b6bad9ea5a484d9a934141a03d3fa39c55efd6e65e6e02dea6be9aa5
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0

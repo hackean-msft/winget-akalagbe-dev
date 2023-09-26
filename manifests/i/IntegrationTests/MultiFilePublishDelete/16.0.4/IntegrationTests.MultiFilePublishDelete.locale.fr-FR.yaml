@@ -1,0 +1,9 @@
+PackageIdentifier: IntegrationTests.MultiFilePublishDelete
+PackageName: 7zip MultifileFR
+PackageVersion: 16.0.4
+Publisher: 7zipFR
+ShortDescription: Free and open source file archiver with a high compression ratio. FRFR
+PackageLocale: fr-FR
+
+ManifestType: locale
+ManifestVersion: 1.0.0

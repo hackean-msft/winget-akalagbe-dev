@@ -1,0 +1,17 @@
+PackageIdentifier: LogMeIn.LastPass
+PackageName: LastPass
+PackageVersion: 4.43.0.7
+Publisher: LogMeIn
+License: Copyright (c) LastPass 2008 - 2020 - All rights reserved.
+ShortDescription: Password manager web browser extension.
+InstallerType: exe
+Installers:
+- Architecture: x64
+  InstallerUrl: https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe
+  InstallerSha256: B5341D5ABB3176CBFEFF27AAAE6CDD2F48FD12D67CA4FF36FFE2147C41E5F413
+  InstallerSwitches:
+    Silent: -si
+    SilentWithProgress: -si
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
