@@ -29,7 +29,6 @@ Installers:
   InstallerSha256: CEF0C590BBF88C948495F8B3D0681732056A2B44F3C0169F488B265FED9AE29F
   InstallerSwitches:
     Silent: /quiet
-    SilentWithProgress: /passive
 PackageLocale: en-US
 ManifestType: singleton
 ManifestVersion: 1.0.0
