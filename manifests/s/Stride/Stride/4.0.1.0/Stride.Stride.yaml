@@ -32,4 +32,4 @@ Installers:
     SilentWithProgress: /passive
 PackageLocale: en-US
 ManifestType: singleton
-ManifestVersion: 1.6.0
+ManifestVersion: 1.5.0
