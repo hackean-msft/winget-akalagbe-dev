@@ -25,8 +25,8 @@ PackageUrl: https://stride3d.net/
 Installers:
 - Architecture: x64
   InstallerType: exe
-  InstallerUrl: https://stride3d.net/files/StrideSetup.exe
-  InstallerSha256: 182FDDCEC8EDAB176F4380EC3952319ED0BBFDCDAB577A01F5D222876DB50CE9
+  InstallerUrl: https://github.com/stride3d/stride-website/raw/master/files/StrideSetup.exe
+  InstallerSha256: CEF0C590BBF88C948495F8B3D0681732056A2B44F3C0169F488B265FED9AE29F
   InstallerSwitches:
     Silent: /quiet
     SilentWithProgress: /passive
