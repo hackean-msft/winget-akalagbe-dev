@@ -1,0 +1,17 @@
+# Automatically updated by the winget bot at 2023/Oct/23
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.2.0.schema.json
+
+PackageIdentifier: IntegrationTests.ManifestUpdate.OneInstallerCreate
+PackageVersion: 2.0
+PackageName: ManifestUpdate Test
+Publisher: Contoso
+ShortDescription: Manifest update test for Create
+License: Text
+Installers:
+- Architecture: x64
+  InstallerUrl: https://stpkgmanvalwestustest.blob.core.windows.net/test-installers/VSCodeUserSetup-x64-1.46.1.exe
+  InstallerType: inno
+  InstallerSha256: 7777777777777777777777777777777777777777777777777777777777777777
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.2.0
