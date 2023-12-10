@@ -16,6 +16,8 @@ LicenseUrl: https://github.com/microsoft/PowerToys/blob/master/LICENSE
 Copyright: Copyright (c) Microsoft Corporation. All rights reserved.
 CopyrightUrl: https://github.com/microsoft/PowerToys/blob/main/LICENSE
 ShortDescription: Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity.
+Moniker: powertoys
+Tags:
 - keyboardmanager
 - power-toys
 - powerrename
