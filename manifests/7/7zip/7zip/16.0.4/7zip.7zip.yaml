@@ -8,7 +8,7 @@ License: Copyright (C) 1999-2020 Igor Pavlov. - GNU LGPL
 LicenseUrl: https://7-zip.org/license.txt
 MinimumOSVersion: 10.0.0.0
 PackageUrl: https://www.7-zip.org/
-ShortDescription: Free and open source file archiver with a high compression ratio. Just editting
+ShortDescription: Free and open source file archiver with a high compression ratio.
 Tags:
 - 7zip
 - compression
