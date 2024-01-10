@@ -14,4 +14,4 @@ Installers:
   InstallerSha256: 6666666666666666666666666666666666666666666666666666666666666666
 PackageLocale: en-US
 ManifestType: singleton
-ManifestVersion: 1.5.0
+ManifestVersion: 1.5.1
