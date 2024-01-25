@@ -52,7 +52,6 @@ jobs:
       CLEANUP_ENDPOINT: $(AzFuncCleanupEndpoint)
       LABEL_KEY: $(AzureFunctionLabelKey)
       CATALOG_CONTENT_VERIFICATION_ENDPOINT: $(AzFuncCatalogContentVerificationEndpoint)
-      MISSING_MANIFEST_FIELDS_VERIFICATION_ENDPOINT: $(AzFuncMissingManifestFieldsVerificationEndpoint)
 
   # Validates integrity of pull request.
   - task: CmdLine@2
@@ -229,7 +228,6 @@ jobs:
   variables:
     HostKeySecret: $[ dependencies.FileValidation.outputs['wingetsetup.hostkey']]
     CatalogContentVerificationEndpointSecret: $[ dependencies.FileValidation.outputs['wingetsetup.catalogContentVerificationEndpoint']]
-    ManifestMissingFieldsVerificationEndpointSecret: $[ dependencies.FileValidation.outputs['wingetsetup.manifestMissingFieldsVerificationEndpoint']]
   steps:
 
   # Catalog content verification
@@ -237,27 +235,6 @@ jobs:
     displayName: 'Catalog Content Verification'
     inputs:
       function: '$(CatalogContentVerificationEndpointSecret)'
-      key: '$(HostKeySecret)'
-      body: |
-        {
-        "operationId": "$(Build.BuildNumber)",
-        "BuildId": "$(Build.BuildId)",
-        "PlanUrl": "$(system.CollectionUri)",
-        "HubName": "$(system.HostType)",
-        "ProjectId": "$(system.TeamProjectId)",
-        "PlanId": "$(system.PlanId)", 
-        "JobId": "$(system.JobId)", 
-        "TimelineId": "$(system.TimelineId)", 
-        "TaskInstanceId": "$(system.TaskInstanceId)",
-        "AuthToken": "$(system.AccessToken)"
-        }
-      waitForCompletion: "true"
-      
-  # Catalog content verification
-  - task: AzureFunction@1
-    displayName: 'Manifest Missing Fields Verification'
-    inputs:
-      function: '$(ManifestMissingFieldsVerificationEndpointSecret)'
       key: '$(HostKeySecret)'
       body: |
         {
