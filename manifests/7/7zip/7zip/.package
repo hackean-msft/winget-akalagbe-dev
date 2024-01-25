@@ -1,4 +1,0 @@
-{
-    "$schema": "https://aka.ms/winget-package.schema.json",
-    "publishers": ["zachcarp", "rubengu"]
-}
