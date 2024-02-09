@@ -64,6 +64,7 @@ jobs:
       DIApplicationInsightKey: $(DIApplicationInsightKey)
       WinGet:AppConfig:Primary: $(AppConfigPrimary)
       WinGet:AppConfig:Secondary: $(AppConfigSecondary)
+      SYSTEM_ACCESSTOKEN: $(System.AccessToken)
 
 # Agentless phase. Depends on previous job. 
 - job: 'SignPackage'
