@@ -1,0 +1,44 @@
+Author: Viber Media Inc.
+Copyright: Copyright Viber Media Inc.
+CopyrightUrl: https://www.viber.com/en/terms/viber-terms-use/
+Description: Viber is a mobile application that lets you make free phone calls and
+  send text messages to anyone who also has the application installed. You can call
+  or text any Viber user, anywhere in the world, for free.
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+Installers:
+- Architecture: x64
+  InstallerSha256: 121B729EAA36DD5D20BB2044E2543B60FBEAE99F3EA208A1720CE2FF03C7FA98
+  InstallerType: wix
+  InstallerUrl: https://stpkgmanvalwestustest.blob.core.windows.net/test-installers/esrp-potential-malware.msi
+  ProductCode: '{EE9DED09-83F6-400F-BCE5-960E87D3D2BA}'
+License: Proprietary
+LicenseUrl: https://www.viber.com/en/terms/viber-terms-use/
+ManifestType: singleton
+ManifestVersion: 1.5.0
+MinimumOSVersion: 10.0.0.0
+Moniker: viber
+PackageIdentifier: Atom.Molecule
+PackageLocale: en-US
+PackageName: Viber
+PackageUrl: https://www.viber.com/en/
+PackageVersion: 20.5.1.2
+Platform:
+- Windows.Desktop
+PrivacyUrl: https://www.viber.com/en/terms/viber-privacy-policy/
+Publisher: 2010-2023 Viber Media S.a.r.l
+PublisherUrl: https://www.viber.com/en/
+ShortDescription: Viber is a mobile application that lets you make free phone calls
+  and send text messages to anyone who also has the application installed.
+Tags:
+- chat
+- group-chat
+- messaging
+- phone
+- text-messaging
+- voice
+- voice-chat
+- voip
+UpgradeBehavior: install
