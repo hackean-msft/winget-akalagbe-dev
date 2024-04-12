@@ -61,6 +61,7 @@ jobs:
     condition: succeeded()
     env:
       ValidationConnectionString: $(ValidationStorageAccountConnectionString)
+      CacheConnectionString: $(CacheStorageAccountConnectionString)
       ExecutionEnvironment: $(ExecutionEnvironment)
       PackagePublisher: $(PackagePublisher)
       SYSTEM_ACCESSTOKEN: $(System.AccessToken)
