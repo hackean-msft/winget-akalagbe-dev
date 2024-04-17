@@ -1,0 +1,30 @@
+# Automatically updated by the winget bot at 2024/Feb/10
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.5.0.schema.json
+
+PackageIdentifier: Logitech.LGH
+Publisher: Logitech
+PackageName: Logitech Gaming Hub
+Author: Logitech
+ShortDescription: Customize Logitech G gaming mice, keyboards, headsets, speakers, and other devices
+Moniker: lghub
+Tags:
+- mouse
+- keyboard
+- headset
+- driver
+PackageUrl: https://gaming.logicool.co.jp/en-US/innovation/g-hub.html
+License: Copyright (c) Logitech, Inc. 2020
+LicenseUrl: https://secure.logitech.com/en-us/footer/terms-of-use
+MinimumOSVersion: 10.0.0.0
+PackageVersion: 2024.1.5200
+InstallerType: exe
+Installers:
+- InstallerSwitches:
+    Silent: ''
+    SilentWithProgress: ''
+  Architecture: x64
+  InstallerUrl: https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe
+  InstallerSha256: 293E7015EB183738E9FB581C65A371416A9C5E33BD737E103737F12B1717C3AB
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.5.0
