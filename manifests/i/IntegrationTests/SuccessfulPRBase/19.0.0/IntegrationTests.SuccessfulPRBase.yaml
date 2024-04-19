@@ -1,0 +1,17 @@
+PackageIdentifier: IntegrationTests.SuccessfulPRBase
+PackageVersion: 19.0.0
+PackageName: Visual Studio Code
+Publisher: stpkgmanvalwestustest
+License: Copyright (C) Microsoft Corporation
+MinimumOSVersion: 10.0.0.0
+PackageUrl: https://code.visualstudio.com
+InstallerType: msi
+Installers:
+- Architecture: x64
+  InstallerUrl: https://stpkgmanvalwestustest.blob.core.windows.net/test-installers/VSCodeUserSetup-x64-1.46.1.exe
+  InstallerType: inno
+  InstallerSha256: e29f73f5b6bad9ea5a484d9a934141a03d3fa39c55efd6e65e6e02dea6be9aa5
+PackageLocale: en-US
+ShortDescription: Test for when pipeline run is successful for pull request.
+ManifestType: singleton
+ManifestVersion: 1.5.0
