@@ -13,7 +13,7 @@ License: Proprietary
 LicenseUrl: https://www.enpass.io/legal/terms
 Copyright: Copyright (c) Enpass Technologies Inc. All rights reserved.
 CopyrightUrl: https://www.enpass.io/legal/terms
-ShortDescription: Enpass is a cross-platform password management app to securely store passwords and other credentials in a virtual vault locked with a master password. Unlike most other popular password managers, Enpass is an offline password manager, just editting
+ShortDescription: Enpass is a cross-platform password management app to securely store passwords and other credentials in a virtual vault locked with a master password. Unlike most other popular password managers, Enpass is an offline password manager
 Moniker: enpass
 Tags:
 - password-manager
