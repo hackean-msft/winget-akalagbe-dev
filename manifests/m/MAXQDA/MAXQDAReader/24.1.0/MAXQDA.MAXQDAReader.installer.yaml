@@ -14,5 +14,5 @@ PackageUrl: https://www.maxqda.com/products/maxqda-reader
 License: Proprietary
 Copyright: Copyright © 1995 - 2024, MAXQDA - Distribution by VERBI GmbH. All Rights Reserved.
 ShortDescription: With the free MAXQDA Reader everyone can view and browse through MAXQDA projects. This makes it easier to share your results with your team members or trainers.
-ManifestType: defaultLocale
+ManifestType: installer
 ManifestVersion: 1.6.0
