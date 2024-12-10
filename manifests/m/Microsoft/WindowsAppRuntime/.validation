@@ -1,1 +1,0 @@
-{"ValidationVersion":"1.0.0","Waivers":[{"WaiverId":"b07db284-f024-4da0-98c7-eae58a0b329a","TestPlan":"Validation-Domain","PackagePath":"manifests/m/Microsoft/WindowsAppRuntime/1/4/1.4.3","CommitId":"341a0c93965cfd70fde4a2ceaf96cbda7b7e2189"}],"InstallationVerification":{"Executables":[]}}

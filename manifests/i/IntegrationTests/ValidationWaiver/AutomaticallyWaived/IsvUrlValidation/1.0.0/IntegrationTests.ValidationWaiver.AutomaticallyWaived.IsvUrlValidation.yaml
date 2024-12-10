@@ -10,9 +10,9 @@ Commands:
 - code
 Installers:
 - Architecture: x64
-  InstallerUrl: https://stpkgmanvalwestustest.blob.core.windows.net/test-installers/VSCodeUserSetup-x64-1.46.1.exe
+  InstallerUrl: https://winget-cache-test-fccxhrb9evdxdrem.z01.azurefd.net/tests/installers/azure-cli-2.14.1.msi
+  InstallerSha256: D06930CF9DD4033CEB58798EBF80B2964D0C6E38B10AB3A646EA2875E7C2417C
   InstallerType: inno
-  InstallerSha256: e29f73f5b6bad9ea5a484d9a934141a03d3fa39c55efd6e65e6e02dea6be9aa5
 PackageLocale: en-US
 ManifestType: singleton
 ManifestVersion: 1.0.0

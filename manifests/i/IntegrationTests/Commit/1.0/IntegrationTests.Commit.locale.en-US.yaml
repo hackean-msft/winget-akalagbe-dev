@@ -1,0 +1,21 @@
+PackageIdentifier: IntegrationTests.Commit
+PackageVersion: 1.0
+PackageName: IntegrationTest Commit
+Moniker: TestMultifile
+Publisher: 7zip
+Author: Test
+License: Copyright (C) 1999-2020 Igor Pavlov. - GNU LGPL
+LicenseUrl: https://7-zip.org/license.txt
+PackageUrl: https://www.7-zip.org/
+ShortDescription: Free and open source file archiver with a high compression ratio.
+PackageLocale: en-US
+Tags: 
+  - 7zip
+  - compression
+  - file compression
+  - utility
+  - tool
+  - zip
+
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

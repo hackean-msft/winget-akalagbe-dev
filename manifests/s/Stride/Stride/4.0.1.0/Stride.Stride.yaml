@@ -20,16 +20,16 @@ Tags:
 - net
 - C#
 - csharp
-ShortDescription: Stride is an open-source MIT C# game engine designed for the future of gaming. Just edding not installer property.
+ShortDescription: Stride is an open-source MIT C# game engine designed for the future of gaming.
 PackageUrl: https://stride3d.net/
 Installers:
 - Architecture: x64
   InstallerType: exe
-  InstallerUrl: https://github.com/stride3d/stride-website/raw/master/files/StrideSetup.exe
-  InstallerSha256: CEF0C590BBF88C948495F8B3D0681732056A2B44F3C0169F488B265FED9AE29F
+  InstallerUrl: https://stride3d.net/files/StrideSetup.exe
+  InstallerSha256: 182FDDCEC8EDAB176F4380EC3952319ED0BBFDCDAB577A01F5D222876DB50CE9
   InstallerSwitches:
     Silent: /quiet
     SilentWithProgress: /passive
 PackageLocale: en-US
 ManifestType: singleton
-ManifestVersion: 1.5.0
+ManifestVersion: 1.0.0
